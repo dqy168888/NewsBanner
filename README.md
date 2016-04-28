@@ -3,4 +3,4 @@
 
 支持点击事件
 
-![image](https://github.com/ssyzh/PullLoadDemo/blob/master/PullLoadDemo/Resource/PullLoad.gif)
+![image](https://github.com/ssyzh/NewsBanner/blob/master/NewsBannerDemo/Resource/NewsBanner.gif)
