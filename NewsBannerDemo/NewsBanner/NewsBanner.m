@@ -41,13 +41,13 @@ static int countInt=0;
 }
 
 - (void)initContentView{
+    self.clipsToBounds = YES;
     self.notice = [UILabel new];
     self.notice.font = [UIFont systemFontOfSize:15.0];
     self.notice.textColor = [UIColor lightGrayColor];
     self.notice.userInteractionEnabled = YES;
     [self addSubview:self.notice];
     UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap:)];
-    
     [self.notice addGestureRecognizer:tap];
     
     

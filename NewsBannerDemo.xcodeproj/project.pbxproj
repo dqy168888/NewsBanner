@@ -18,6 +18,7 @@
 		F022329F1CD234D100893B3F /* NewsBannerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F022329E1CD234D100893B3F /* NewsBannerDemoUITests.m */; };
 		F02232B11CD2361400893B3F /* NewsBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F02232B01CD2361400893B3F /* NewsBanner.m */; };
 		F02E1BD71CD2455C00E22F49 /* NewsBanner.gif in Resources */ = {isa = PBXBuildFile; fileRef = F02E1BD61CD2455C00E22F49 /* NewsBanner.gif */; };
+		F04E704F1CD834AC00A14A24 /* News.gif in Resources */ = {isa = PBXBuildFile; fileRef = F04E704E1CD834AC00A14A24 /* News.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F02232AF1CD2361400893B3F /* NewsBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsBanner.h; sourceTree = "<group>"; };
 		F02232B01CD2361400893B3F /* NewsBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsBanner.m; sourceTree = "<group>"; };
 		F02E1BD61CD2455C00E22F49 /* NewsBanner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NewsBanner.gif; sourceTree = "<group>"; };
+		F04E704E1CD834AC00A14A24 /* News.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = News.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				F02E1BD61CD2455C00E22F49 /* NewsBanner.gif */,
+				F04E704E1CD834AC00A14A24 /* News.gif */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				F02232891CD234D000893B3F /* LaunchScreen.storyboard in Resources */,
 				F02E1BD71CD2455C00E22F49 /* NewsBanner.gif in Resources */,
 				F02232861CD234D000893B3F /* Assets.xcassets in Resources */,
+				F04E704F1CD834AC00A14A24 /* News.gif in Resources */,
 				F02232841CD234D000893B3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
