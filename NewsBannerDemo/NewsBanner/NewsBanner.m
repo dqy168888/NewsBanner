@@ -13,20 +13,17 @@
 
 static int countInt=0;
 
-- (NSArray *)noticeList{
-    
-    if (!_noticeList) {
-        _noticeList = [NSArray array];
-    }
-    return _noticeList;
-}
 
-- (NSArray *)awardList{
-    
-    if (!_awardList) {
-        _awardList = [NSArray array];
+- (void)setNoticeList:(NSArray *)noticeList
+{
+
+    if (_noticeList != noticeList) {
+        _noticeList = noticeList;
+        if (_noticeList.count != 0) {
+            _notice.text = _noticeList[0];
+        }
+        
     }
-    return _awardList;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -89,6 +86,9 @@ static int countInt=0;
 }
 - (void)star
 {
-    [NSTimer scheduledTimerWithTimeInterval:self.duration target:self selector:@selector(displayNews) userInfo:nil repeats:YES];
+    if (self.noticeList.count != 0) {
+      [NSTimer scheduledTimerWithTimeInterval:self.duration target:self selector:@selector(displayNews) userInfo:nil repeats:YES];  
+    }
+    
 }
 @end

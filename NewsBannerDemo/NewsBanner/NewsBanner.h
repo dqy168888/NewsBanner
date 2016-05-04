@@ -18,7 +18,6 @@
 @property (nonatomic ,strong) UILabel *notice;
 @property(nonatomic,assign)NSTimeInterval duration;
 @property (nonatomic ,strong) NSArray *noticeList;
-@property (nonatomic ,strong) NSArray *awardList;
 @property(nonatomic,assign)id <NewsBannerDelegate>delegate;
 - (void)star;
 @end

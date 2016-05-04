@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6898F56CEEA9E191F81B58A3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606FF25CBCAF6014D687C427 /* libPods.a */; };
+		F02075F81CD9C4B50034B0E9 /* banner.gif in Resources */ = {isa = PBXBuildFile; fileRef = F02075F71CD9C4B50034B0E9 /* banner.gif */; };
 		F022327B1CD234D000893B3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F022327A1CD234D000893B3F /* main.m */; };
 		F022327E1CD234D000893B3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F022327D1CD234D000893B3F /* AppDelegate.m */; };
 		F02232811CD234D000893B3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02232801CD234D000893B3F /* ViewController.m */; };
@@ -17,8 +18,6 @@
 		F02232941CD234D100893B3F /* NewsBannerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02232931CD234D100893B3F /* NewsBannerDemoTests.m */; };
 		F022329F1CD234D100893B3F /* NewsBannerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F022329E1CD234D100893B3F /* NewsBannerDemoUITests.m */; };
 		F02232B11CD2361400893B3F /* NewsBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F02232B01CD2361400893B3F /* NewsBanner.m */; };
-		F02E1BD71CD2455C00E22F49 /* NewsBanner.gif in Resources */ = {isa = PBXBuildFile; fileRef = F02E1BD61CD2455C00E22F49 /* NewsBanner.gif */; };
-		F04E704F1CD834AC00A14A24 /* News.gif in Resources */ = {isa = PBXBuildFile; fileRef = F04E704E1CD834AC00A14A24 /* News.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +41,7 @@
 		002E9B0962D528C7227CAC4A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2BBA5AD69194110E88399A9B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		606FF25CBCAF6014D687C427 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02075F71CD9C4B50034B0E9 /* banner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = banner.gif; sourceTree = "<group>"; };
 		F02232761CD234D000893B3F /* NewsBannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsBannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F022327A1CD234D000893B3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F022327C1CD234D000893B3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,8 +60,6 @@
 		F02232A01CD234D100893B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F02232AF1CD2361400893B3F /* NewsBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsBanner.h; sourceTree = "<group>"; };
 		F02232B01CD2361400893B3F /* NewsBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsBanner.m; sourceTree = "<group>"; };
-		F02E1BD61CD2455C00E22F49 /* NewsBanner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NewsBanner.gif; sourceTree = "<group>"; };
-		F04E704E1CD834AC00A14A24 /* News.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = News.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,8 +183,7 @@
 		F02232AE1CD235FD00893B3F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				F02E1BD61CD2455C00E22F49 /* NewsBanner.gif */,
-				F04E704E1CD834AC00A14A24 /* News.gif */,
+				F02075F71CD9C4B50034B0E9 /* banner.gif */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -297,10 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02075F81CD9C4B50034B0E9 /* banner.gif in Resources */,
 				F02232891CD234D000893B3F /* LaunchScreen.storyboard in Resources */,
-				F02E1BD71CD2455C00E22F49 /* NewsBanner.gif in Resources */,
 				F02232861CD234D000893B3F /* Assets.xcassets in Resources */,
-				F04E704F1CD834AC00A14A24 /* News.gif in Resources */,
 				F02232841CD234D000893B3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
