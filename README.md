@@ -7,4 +7,4 @@
 
 最新效果图如下：
 
-![image](https://github.com/ssyzh/NewsBanner/blob/master/NewsBannerDemo/Resource/git.gif)
+![image](https://github.com/ssyzh/NewsBanner/blob/master/NewsBannerDemo/Resource/banner.gif)
